@@ -1,2 +1,2 @@
 # Especializacion_DA_ITAcademy
-En este repositorio encontrarás los proyectos desarrollados durante mi formación en  Data analitycs en IT ACADEMY. 
+En este repositorio encontrarás las actividades desarrollados durante mi formación en  Data analitycs en IT ACADEMY. 
