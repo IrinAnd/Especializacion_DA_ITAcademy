@@ -1,0 +1,183 @@
+﻿iso3,pais,region_cpi
+AFG,Afghanistan,AP
+ALB,Albania,ECA
+DZA,Algeria,MENA
+AGO,Angola,SSA
+ARG,Argentina,AME
+ARM,Armenia,ECA
+AUS,Australia,AP
+DNK,Denmark,WE/EU
+AZE,Azerbaijan,ECA
+BHS,Bahamas,AME
+BHR,Bahrain,MENA
+BGD,Bangladesh,AP
+BRB,Barbados,AME
+BLR,Belarus,ECA
+FIN,Finland,WE/EU
+BEN,Benin,SSA
+BLZ,Belize,AME
+BTN,Bhutan,AP
+BOL,Bolivia,AME
+BIH,Bosnia and Herzegovina,ECA
+BWA,Botswana,SSA
+BRA,Brazil,AME
+BRN,Brunei Darussalam,AP
+LUX,Luxembourg,WE/EU
+BFA,Burkina Faso,SSA
+BDI,Burundi,SSA
+CPV,Cabo Verde,SSA
+KHM,Cambodia,AP
+CMR,Cameroon,SSA
+CAN,Canada,AME
+CAF,Central African Republic,SSA
+TCD,Chad,SSA
+CHL,Chile,AME
+CHN,China,AP
+COL,Colombia,AME
+COM,Comoros,SSA
+COG,Congo,SSA
+CRI,Costa Rica,AME
+CIV,Cote d'Ivoire,SSA
+NOR,Norway,WE/EU
+CUB,Cuba,AME
+CHE,Switzerland,WE/EU
+SWE,Sweden,WE/EU
+COD,Democratic Republic of the Congo,SSA
+NLD,Netherlands,WE/EU
+DJI,Djibouti,SSA
+DMA,Dominica,AME
+DOM,Dominican Republic,AME
+ECU,Ecuador,AME
+EGY,Egypt,MENA
+SLV,El Salvador,AME
+GNQ,Equatorial Guinea,SSA
+ERI,Eritrea,SSA
+ISL,Iceland,WE/EU
+SWZ,Eswatini,SSA
+ETH,Ethiopia,SSA
+FJI,Fiji,AP
+IRL,Ireland,WE/EU
+EST,Estonia,WE/EU
+GAB,Gabon,SSA
+GMB,Gambia,SSA
+GEO,Georgia,ECA
+DEU,Germany,WE/EU
+GHA,Ghana,SSA
+GBR,United Kingdom,WE/EU
+GRD,Grenada,AME
+GTM,Guatemala,AME
+GIN,Guinea,SSA
+GNB,Guinea Bissau,SSA
+GUY,Guyana,AME
+HTI,Haiti,AME
+HND,Honduras,AME
+HKG,Hong Kong,AP
+BEL,Belgium,WE/EU
+AUT,Austria,WE/EU
+IND,India,AP
+IDN,Indonesia,AP
+IRN,Iran,MENA
+IRQ,Iraq,MENA
+FRA,France,WE/EU
+ISR,Israel,MENA
+LTU,Lithuania,WE/EU
+JAM,Jamaica,AME
+JPN,Japan,AP
+JOR,Jordan,MENA
+KAZ,Kazakhstan,ECA
+KEN,Kenya,SSA
+PRK,"Korea, North",AP
+KOR,"Korea, South",AP
+XXK,Kosovo,ECA
+KWT,Kuwait,MENA
+KGZ,Kyrgyzstan,ECA
+LAO,Laos,AP
+SVN,Slovenia,WE/EU
+LBN,Lebanon,MENA
+LSO,Lesotho,SSA
+LBR,Liberia,SSA
+LBY,Libya,MENA
+LVA,Latvia,WE/EU
+PRT,Portugal,WE/EU
+MDG,Madagascar,SSA
+MWI,Malawi,SSA
+MYS,Malaysia,AP
+MDV,Maldives,AP
+MLI,Mali,SSA
+CYP,Cyprus,WE/EU
+MRT,Mauritania,SSA
+MUS,Mauritius,SSA
+MEX,Mexico,AME
+MDA,Moldova,ECA
+MNG,Mongolia,AP
+MNE,Montenegro,ECA
+MAR,Morocco,MENA
+MOZ,Mozambique,SSA
+MMR,Myanmar,AP
+NAM,Namibia,SSA
+NPL,Nepal,AP
+CZE,Czechia,WE/EU
+NZL,New Zealand,AP
+NIC,Nicaragua,AME
+NER,Niger,SSA
+NGA,Nigeria,SSA
+MKD,North Macedonia,ECA
+ESP,Spain,WE/EU
+OMN,Oman,MENA
+PAK,Pakistan,AP
+PAN,Panama,AME
+PNG,Papua New Guinea,AP
+PRY,Paraguay,AME
+PER,Peru,AME
+PHL,Philippines,AP
+ITA,Italy,WE/EU
+POL,Poland,WE/EU
+QAT,Qatar,MENA
+GRC,Greece,WE/EU
+RUS,Russia,ECA
+RWA,Rwanda,SSA
+LCA,Saint Lucia,AME
+VCT,Saint Vincent and the Grenadines,AME
+STP,Sao Tome and Principe,SSA
+SAU,Saudi Arabia,MENA
+SEN,Senegal,SSA
+SRB,Serbia,ECA
+SYC,Seychelles,SSA
+SLE,Sierra Leone,SSA
+SGP,Singapore,AP
+SVK,Slovakia,WE/EU
+HRV,Croatia,WE/EU
+SLB,Solomon Islands,AP
+SOM,Somalia,SSA
+ZAF,South Africa,SSA
+SSD,South Sudan,SSA
+MLT,Malta,WE/EU
+LKA,Sri Lanka,AP
+SDN,Sudan,SSA
+SUR,Suriname,AME
+ROU,Romania,WE/EU
+BGR,Bulgaria,WE/EU
+SYR,Syria,MENA
+TWN,Taiwan,AP
+TJK,Tajikistan,ECA
+TZA,Tanzania,SSA
+THA,Thailand,AP
+TLS,Timor-Leste,AP
+TGO,Togo,SSA
+TTO,Trinidad and Tobago,AME
+TUN,Tunisia,MENA
+TUR,Turkey,ECA
+TKM,Turkmenistan,ECA
+UGA,Uganda,SSA
+UKR,Ukraine,ECA
+ARE,United Arab Emirates,MENA
+HUN,Hungary,WE/EU
+USA,United States of America,AME
+URY,Uruguay,AME
+UZB,Uzbekistan,ECA
+VUT,Vanuatu,AP
+VEN,Venezuela,AME
+VNM,Vietnam,AP
+YEM,Yemen,MENA
+ZMB,Zambia,SSA
+ZWE,Zimbabwe,SSA

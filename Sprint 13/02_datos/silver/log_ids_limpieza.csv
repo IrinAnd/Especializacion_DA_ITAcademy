@@ -1,0 +1,18 @@
+﻿paso,que_se_hizo,filas_antes,filas_despues,filas_afectadas
+1,Carga de 7 ficheros,0,718856,7
+2,Quitar filas de pie (vacías y 'Filtros aplicados'),718856,718842,14
+3,Duplicados por Row Number,718842,718842,0
+4,Renombrar columnas,718842,718842,0
+5,"Tipos: fechas no válidas=0, cantidades no numéricas=0. Rango 2011-01-01 a 2026-06-30",718842,718842,0
+6,Quitar espacios sobrantes en columnas de texto,718842,718842,2210
+7,"Nulos: {'ciudad_original': 22668, 'region_administrativa': 33547}. 'Data not available' a 'No disponible'",718842,718842,1094512
+8,Un solo nombre por iso3 (ej. 'Netherlands (Kingdom of the)' a 'Netherlands'),718842,718842,5
+9,Unificar subregiones. Países con más de una subregión después: 0,718842,718842,172333
+10,"Droga: 262 → 261 nombres, 13 grupos (clasificación propia, revisar)",718842,718842,2778
+11,Equivalencia de grupos IDS a 7.1 (parcial),718842,718842,583411
+12,"Unidades: g a kg; litros y unidades aparte. tipo_medida={'masa': 624785, 'unidades': 76403, 'plantas': 11919, 'volumen': 5721, 'otro': 14}. Cantidades ≤0 marcadas=19",718842,718842,513629
+13,"Ciudad normalizada (39,291 → 38,365 valores). Filas en puerto=8,886. Alias aún sin resolver",718842,718842,51091
+14,"Posibles duplicados de contenido (marcados, no borrados)",718842,718842,21429
+15,Masas > 10.000 kg marcadas (cantidad_extrema),718842,718842,53
+16,"Columnas anio, mes, trimestre, anio_mes",718842,718842,718842
+17,"Tabla limpia lista: 718,842 filas x 33 columnas",718842,718842,0

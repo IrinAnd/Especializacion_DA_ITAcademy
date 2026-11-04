@@ -1,0 +1,48 @@
+﻿iso3,pais,region,subregion,region_cpi,en_ids,en_anual,en_cpi,ids_meses_con_datos,ids_primer_mes,ids_ultimo_mes,ids_cobertura,ids_frecuencia,ids_frecuencia_orden,pais_unodc,en_panel_cocaina,en_panel_cannabis,grupo_geografico
+ALB,Albania,Europa,Europa sudoriental,Europa oriental y Asia central,True,True,True,62.000000000,2018-01,2026-03,0.333300000,Baja,3,Albania,False,False,Resto de Europa
+AND,Andorra,Europa,Europa occidental y central,,True,True,False,30.000000000,2011-12,2023-05,0.161300000,Muy baja,4,Andorra,False,False,Resto de Europa
+AUT,Austria,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,172.000000000,2011-01,2025-12,0.924700000,Alta,1,Austria,True,True,Resto de Europa
+BEL,Bélgica,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,116.000000000,2011-02,2026-06,0.623700000,Media,2,Belgium,True,True,Mar del Norte
+BGR,Bulgaria,Europa,Europa sudoriental,Europa occidental y UE,True,True,True,180.000000000,2011-01,2026-06,0.967700000,Alta,1,Bulgaria,True,True,Resto de Europa
+BIH,Bosnia y Herzegovina,Europa,Europa sudoriental,Europa oriental y Asia central,True,True,True,119.000000000,2012-01,2025-12,0.639800000,Media,2,Bosnia and Herzegovina,False,False,Resto de Europa
+BLR,Bielorrusia,Europa,Europa oriental,Europa oriental y Asia central,True,True,True,66.000000000,2017-01,2022-06,0.354800000,Baja,3,Belarus,False,False,Resto de Europa
+CHE,Suiza,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,153.000000000,2011-01,2025-12,0.822600000,Alta,1,Switzerland,True,True,Resto de Europa
+CYP,Chipre,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,176.000000000,2011-02,2026-03,0.946200000,Alta,1,Cyprus,True,True,Resto de Europa
+CZE,Chequia,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,150.000000000,2011-02,2026-01,0.806500000,Alta,1,Czechia,True,True,Resto de Europa
+DEU,Alemania,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,99.000000000,2011-01,2026-03,0.532300000,Media,2,Germany,True,False,Mar del Norte
+DNK,Dinamarca,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,150.000000000,2011-01,2024-06,0.806500000,Alta,1,Denmark,True,True,Resto de Europa
+ESP,España,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,150.000000000,2011-01,2024-03,0.806500000,Alta,1,Spain,True,True,Resto de Europa
+EST,Estonia,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,4.000000000,2018-04,2018-12,0.021500000,Muy baja,4,Estonia,True,True,Resto de Europa
+FIN,Finlandia,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,101.000000000,2014-01,2024-12,0.543000000,Media,2,Finland,True,True,Resto de Europa
+FRA,Francia,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,13.000000000,2011-01,2012-01,0.069900000,Muy baja,4,France,True,True,Resto de Europa
+GBR,Reino Unido,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,21.000000000,2011-04,2015-03,0.112900000,Muy baja,4,United Kingdom,True,True,Resto de Europa
+GIB,Gibraltar,Europa,Europa occidental y central,,False,True,False,,,,,Sin datos IDS,5,Gibraltar,False,False,Resto de Europa
+GRC,Grecia,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,129.000000000,2011-02,2026-06,0.693500000,Media,2,Greece,True,True,Resto de Europa
+HRV,Croacia,Europa,Europa sudoriental,Europa occidental y UE,True,True,True,155.000000000,2011-01,2026-03,0.833300000,Alta,1,Croatia,True,True,Resto de Europa
+HUN,Hungría,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,61.000000000,2011-04,2020-12,0.328000000,Baja,3,Hungary,True,True,Resto de Europa
+IRL,Irlanda,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,93.000000000,2011-03,2026-03,0.500000000,Media,2,Ireland,True,True,Resto de Europa
+ISL,Islandia,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,6.000000000,2011-01,2012-11,0.032300000,Muy baja,4,Iceland,False,False,Resto de Europa
+ITA,Italia,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,160.000000000,2012-01,2026-03,0.860200000,Alta,1,Italy,True,True,Resto de Europa
+LIE,Liechtenstein,Europa,Europa occidental y central,,True,False,False,1.000000000,2011-11,2011-11,0.005400000,Muy baja,4,Liechtenstein,False,False,Resto de Europa
+LTU,Lituania,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,110.000000000,2012-01,2026-06,0.591400000,Media,2,Lithuania,True,True,Resto de Europa
+LUX,Luxemburgo,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,136.000000000,2012-01,2026-06,0.731200000,Media,2,Luxembourg,True,True,Resto de Europa
+LVA,Letonia,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,93.000000000,2011-01,2023-07,0.500000000,Media,2,Latvia,False,False,Resto de Europa
+MCO,Mónaco,Europa,Europa occidental y central,,True,False,False,11.000000000,2012-01,2012-12,0.059100000,Muy baja,4,Monaco,False,False,Resto de Europa
+MDA,Moldavia,Europa,Europa oriental,Europa oriental y Asia central,True,True,True,96.000000000,2012-01,2026-06,0.516100000,Media,2,Republic of Moldova,False,True,Resto de Europa
+MKD,Macedonia del Norte,Europa,Europa sudoriental,Europa oriental y Asia central,True,True,True,89.000000000,2012-01,2023-12,0.478500000,Baja,3,North Macedonia,False,False,Resto de Europa
+MLT,Malta,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,165.000000000,2011-01,2026-03,0.887100000,Alta,1,Malta,True,False,Resto de Europa
+MNE,Montenegro,Europa,Europa sudoriental,Europa oriental y Asia central,True,True,True,87.000000000,2014-04,2025-12,0.467700000,Baja,3,Montenegro,True,True,Resto de Europa
+NLD,Países Bajos,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,22.000000000,2011-12,2026-06,0.118300000,Muy baja,4,Netherlands,True,True,Mar del Norte
+NOR,Noruega,Europa,Europa occidental y central,Europa occidental y UE,False,True,True,,,,,Sin datos IDS,5,Norway,True,True,Resto de Europa
+POL,Polonia,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,50.000000000,2011-06,2023-12,0.268800000,Baja,3,Poland,True,True,Resto de Europa
+PRT,Portugal,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,173.000000000,2011-01,2026-03,0.930100000,Alta,1,Portugal,True,True,Resto de Europa
+ROU,Rumanía,Europa,Europa sudoriental,Europa occidental y UE,True,True,True,151.000000000,2011-01,2026-03,0.811800000,Alta,1,Romania,False,False,Resto de Europa
+RUS,Rusia,Europa,Europa oriental,Europa oriental y Asia central,True,True,True,186.000000000,2011-01,2026-06,1.000000000,Alta,1,Russian Federation,True,True,Resto de Europa
+SRB,Serbia,Europa,Europa sudoriental,Europa oriental y Asia central,True,True,True,136.000000000,2011-01,2025-09,0.731200000,Media,2,Serbia,True,True,Resto de Europa
+SVK,Eslovaquia,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,48.000000000,2016-02,2026-03,0.258100000,Baja,3,Slovakia,False,True,Resto de Europa
+SVN,Eslovenia,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,9.000000000,2016-03,2018-10,0.048400000,Muy baja,4,Slovenia,False,False,Resto de Europa
+SWE,Suecia,Europa,Europa occidental y central,Europa occidental y UE,True,True,True,115.000000000,2011-01,2026-06,0.618300000,Media,2,Sweden,True,True,Resto de Europa
+TUR,Türkiye,Europa,Europa sudoriental,Europa oriental y Asia central,True,True,True,20.000000000,2024-02,2025-12,0.107500000,Muy baja,4,Türkiye,True,False,Resto de Europa
+UKR,Ucrania,Europa,Europa oriental,Europa oriental y Asia central,True,True,True,144.000000000,2011-01,2026-06,0.774200000,Media,2,Ukraine,False,False,Resto de Europa
+VAT,Santa Sede,Europa,Europa occidental y central,,False,True,False,,,,,Sin datos IDS,5,Holy See,False,False,Resto de Europa
+XXK,Kosovo,Europa,Europa sudoriental,Europa oriental y Asia central,False,True,True,,,,,Sin datos IDS,5,Kosovo under UNSCR 1244,False,False,Resto de Europa

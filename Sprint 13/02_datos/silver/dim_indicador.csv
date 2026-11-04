@@ -1,0 +1,4 @@
+﻿indicador,nombre,escala,fuente,enlace
+CPI,Índice de Percepción de la Corrupción,"0 muy corrupto, 100 muy limpio","Transparency International, CPI 2025",https://www.transparency.org/en/cpi/2025
+GASTO_PS,Gasto en protección social,% del PIB,"Eurostat, tps00098",https://ec.europa.eu/eurostat/databrowser/view/tps00098
+AROPE,Población en riesgo de pobreza o exclusión social,% de la población,"Eurostat, ilc_peps01n",https://ec.europa.eu/eurostat/databrowser/view/ilc_peps01n

@@ -1,0 +1,9 @@
+﻿paso,que_se_hizo,filas
+1,Carga de silver,730078
+2,dim_pais de Europa con frecuencia de reporting,47
+3,"fact_decomiso_anual (7.1, Europa)",3070
+4,"fact_decomiso_dia (IDS, solo masa)",106391
+5,fact_contexto (Europa),1331
+6,dim_fecha,5844
+7,puertos_cocaina_ids,456
+8,Comprobaciones de claves,0

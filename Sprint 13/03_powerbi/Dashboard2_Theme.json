@@ -1,0 +1,22 @@
+{
+  "name": "Dashboard 2 Color Palette",
+  "dataColors": [
+    "#2c3e50",
+    "#aadeee",
+    "#f39c12",
+    "#bbbbbb",
+    "#aaaaaa"
+  ],
+  "foreground": "#2c3e50",
+  "background": "#FFFFFF",
+  "tableAccent": "#f39c12",
+  "good": "#aadeee",
+  "neutral": "#bbbbbb",
+  "bad": "#f39c12",
+  "maximum": "#2c3e50",
+  "center": "#aadeee",
+  "minimum": "#aaaaaa",
+  "firstLevelElements": "#2c3e50",
+  "secondLevelElements": "#aaaaaa",
+  "thirdLevelElements": "#bbbbbb"
+}
