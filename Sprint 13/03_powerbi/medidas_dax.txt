@@ -1,0 +1,97 @@
+Cocaína kg =
+CALCULATE ( SUM ( fact_decomiso_anual[kg] ), fact_decomiso_anual[grupo_droga] = "Cocaína y derivados" )
+
+Cocaína t = DIVIDE ( [Cocaína kg], 1000 )
+
+Cocaína t panel = CALCULATE ( [Cocaína t], dim_pais[en_panel_cocaina] = TRUE () )
+
+Cannabis t =
+DIVIDE ( CALCULATE ( SUM ( fact_decomiso_anual[kg] ), fact_decomiso_anual[grupo_droga] = "Cannabis" ), 1000 )
+
+Cocaína t panel 2015 = CALCULATE ( [Cocaína t panel], dim_fecha[anio] = 2015 )
+
+Índice cocaína base 2015 = DIVIDE ( [Cocaína t panel], [Cocaína t panel 2015] ) * 100
+
+Veces sobre 2015 = DIVIDE ( [Cocaína t panel], [Cocaína t panel 2015] )
+
+Cocaína t panel año anterior = CALCULATE ( [Cocaína t panel], dim_fecha[anio] = MAX ( dim_fecha[anio] ) - 1 )
+
+Variación anual t = [Cocaína t panel] - [Cocaína t panel año anterior]
+
+Variación anual % = DIVIDE ( [Variación anual t], [Cocaína t panel año anterior] )
+
+Cuota del país % = DIVIDE ( [Cocaína t panel], CALCULATE ( [Cocaína t panel], ALL ( dim_pais ) ) )
+
+Cuota Mar del Norte % =
+DIVIDE (
+    CALCULATE ( [Cocaína t panel], dim_pais[grupo_geografico] = "Mar del Norte" ),
+    CALCULATE ( [Cocaína t panel], ALL ( dim_pais[grupo_geografico] ) )
+)
+
+Decomisos IDS = SUM ( fact_decomiso_dia[n_decomisos] )
+
+Cocaína IDS t =
+DIVIDE ( CALCULATE ( SUM ( fact_decomiso_dia[kg] ), fact_decomiso_dia[grupo_droga] = "Cocaína y derivados" ), 1000 )
+
+CPI medio = CALCULATE ( AVERAGE ( fact_contexto[valor] ), fact_contexto[indicador] = "CPI" )
+
+Gasto protección social medio = CALCULATE ( AVERAGE ( fact_contexto[valor] ), fact_contexto[indicador] = "GASTO_PS" )
+
+AROPE medio = CALCULATE ( AVERAGE ( fact_contexto[valor] ), fact_contexto[indicador] = "AROPE" )
+
+Cannabis t panel = CALCULATE ( [Cannabis t], dim_pais[en_panel_cannabis] = TRUE () )
+
+Cannabis t panel 2015 = CALCULATE ( [Cannabis t panel], dim_fecha[anio] = 2015 )
+
+Índice cannabis base 2015 = DIVIDE ( [Cannabis t panel], [Cannabis t panel 2015] ) * 100
+
+Cocaína t media anual = AVERAGEX ( VALUES ( dim_fecha[anio] ), [Cocaína t] )
+
+Países = COUNTROWS ( dim_pais )
+
+Cocaína IDS t, más de 1 t en el día = CALCULATE ( [Cocaína IDS t], fact_decomiso_dia[kg] > 1000 )
+
+Cobertura IDS % = DIVIDE ( [Cocaína IDS t], [Cocaína t] )
+
+Días con más de 1 t =
+CALCULATE ( COUNTROWS ( fact_decomiso_dia ), fact_decomiso_dia[grupo_droga] = "Cocaína y derivados", fact_decomiso_dia[kg] > 1000 )
+
+Cocaína IDS t, 1 t o menos en el día = CALCULATE ( [Cocaína IDS t], fact_decomiso_dia[kg] <= 1000 )
+
+Cocaína t 2015 = CALCULATE ( [Cocaína t], dim_fecha[anio] = 2015 )
+
+Cocaína t 2024 = CALCULATE ( [Cocaína t], dim_fecha[anio] = 2024 )
+
+Veces 2024 sobre 2015 país = DIVIDE ( [Cocaína t 2024], [Cocaína t 2015] )
+
+CPI 2015 = CALCULATE ( [CPI medio], dim_fecha[anio] = 2015 )
+
+CPI 2024 = CALCULATE ( [CPI medio], dim_fecha[anio] = 2024 )
+
+Gasto social 2015 = CALCULATE ( [Gasto protección social medio], dim_fecha[anio] = 2015 )
+
+Gasto social 2024 = CALCULATE ( [Gasto protección social medio], dim_fecha[anio] = 2024 )
+
+AROPE 2016 = CALCULATE ( [AROPE medio], dim_fecha[anio] = 2016 )
+
+AROPE 2024 = CALCULATE ( [AROPE medio], dim_fecha[anio] = 2024 )
+
+Decomisos IDS cocaína = CALCULATE ( [Decomisos IDS], fact_decomiso_dia[grupo_droga] = "Cocaína y derivados" )
+
+Decomisos IDS cocaína 2023 = CALCULATE ( [Decomisos IDS cocaína], dim_fecha[anio] = 2023 )
+
+Decomisos IDS cocaína 2024 = CALCULATE ( [Decomisos IDS cocaína], dim_fecha[anio] = 2024 )
+
+Cobertura IDS % 2023 = CALCULATE ( [Cobertura IDS %], dim_fecha[anio] = 2023 )
+
+Cobertura IDS % 2024 = CALCULATE ( [Cobertura IDS %], dim_fecha[anio] = 2024 )
+
+Meses con datos IDS = MAX ( dim_pais[ids_meses_con_datos] )
+
+Cuota de los 3 primeros 2024 % =
+VAR primeros = TOPN ( 3, ALL ( dim_pais[pais] ), [Cocaína t 2024] )
+RETURN
+DIVIDE (
+    CALCULATE ( [Cocaína t 2024], KEEPFILTERS ( primeros ) ),
+    CALCULATE ( [Cocaína t 2024], ALL ( dim_pais[pais] ) )
+)
