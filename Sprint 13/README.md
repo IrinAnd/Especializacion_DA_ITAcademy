@@ -95,28 +95,31 @@ Los archivos originales no se incluyen en el repositorio. Se descargan en 00_fue
 | Nombre original | Nombre en el proyecto | Fuente y enlace de descarga |
 |---|---|---|
 | 7.1_Drug_seizures_2015-2024.xlsx | 00_fuentes/unodc_wdr2026_anexo_7_1_decomisos_anuales/7.1_Drug_seizures_2015-2024.xlsx | UNODC, World Drug Report 2026, Annex 7.1. https://data.unodc.org/wdr2026 |
-| Descarga por tramos, ver nombre en el proyecto | 00_fuentes/unodc_ids_decomisos_individuales/unodc_ids_parte_1.xlsx a unodc_ids_parte_7.xlsx | UNODC, Individual Drug Seizures, Drugs Monitoring Platform. https://dmp.unodc.org/downloadIDS |
+| ver nombre en el proyecto | 00_fuentes/unodc_ids_decomisos_individuales/unodc_ids_parte_1.xlsx a unodc_ids_parte_7.xlsx | UNODC, Individual Drug Seizures, Drugs Monitoring Platform. https://dmp.unodc.org/downloadIDS |
 | CPI2025_Results.xlsx | 00_fuentes/transparency_international_cpi_2025/CPI2025_Results.xlsx | Transparency International, Corruption Perceptions Index 2025. https://www.transparency.org/en/cpi/2025 |
-| Ver nombre en el proyecto | 00_fuentes/eurostat_gasto_proteccion_social/Eurostat_Gasto_en_Protección_social.xlsx | Eurostat, tps00098. https://ec.europa.eu/eurostat/databrowser/view/tps00098/default/table |
-| Ver nombre en el proyecto | 00_fuentes/eurostat_riesgo_pobreza_exclusion/EurostatPersons_at_risk_of_poverty_or_social_exclusion_by_age_and_sext.xlsx | Eurostat, ilc_peps01n. https://ec.europa.eu/eurostat/databrowser/view/ilc_peps01n/default/table |
-| Ver nombre en el proyecto | informes_pdf/ | EUDA y WCO, Seaports: monitoring the EU's floodgates for illicit drugs (2025); EUDA, European Drug Report 2026. https://www.euda.europa.eu/data/stats2026_en. Informe de puertos: https://www.euda.europa.eu/system/files/documents/2025-06/seaports-monitoring-the-eus-floodgates-for-illicit-drugs.pdf |
-| Prensa y contexto | No se descarga | AFP y swissinfo (9 de enero de 2025, datos de aduanas sobre Amberes); Global Initiative Against Transnational Organized Crime (Brombacher, Fares y Scaturro, 17 de noviembre de 2025); Onda Cero (Nerea Pardillo, 10 de junio de 2026); El Mundo (Rubio); El Caso (Guillem RS, 15 de septiembre de 2026). Los enlaces y la cita completa están en las referencias del informe |
+| No consta el nombre original | 00_fuentes/eurostat_gasto_proteccion_social/Eurostat_Gasto_en_Protección_social.xlsx | Eurostat, tps00098. https://ec.europa.eu/eurostat/databrowser/view/tps00098/default/table |
+| No consta el nombre original | 00_fuentes/eurostat_riesgo_pobreza_exclusion/EurostatPersons_at_risk_of_poverty_or_social_exclusion_by_age_and_sext.xlsx | Eurostat, ilc_peps01n. https://ec.europa.eu/eurostat/databrowser/view/ilc_peps01n/default/table |
+| No consta el nombre original | informes_pdf/ | EUDA y WCO, Seaports: monitoring the EU's floodgates for illicit drugs (2025); EUDA, European Drug Report 2026. https://www.euda.europa.eu/data/stats2026_en. Informe de puertos: https://www.euda.europa.eu/system/files/documents/2025-06/seaports-monitoring-the-eus-floodgates-for-illicit-drugs.pdf |
+| Prensa | No se descarga | AFP y swissinfo (9 de enero de 2025), decomisos en Amberes, datos de aduanas. https://www.swissinfo.ch/spa/los-decomisos-de-coca%C3%ADna-en-el-puerto-de-amberes-se-reducen-m%C3%A1s-de-la-mitad-por-los-controles-reforzados-en-am%C3%A9rica-latina/88697822 |
+| Prensa | No se descarga | Brombacher, Fares y Scaturro, Global Initiative (17 de noviembre de 2025). https://globalinitiative.net/analysis/what-the-declining-amount-of-cocaine-seized-in-western-europe-doesnt-tell-us/ |
+| Prensa | No se descarga | Pardillo, Onda Cero (10 de junio de 2026). https://www.ondacero.es/noticias/sociedad/dos-clanes-drogas-ajuste-cuentas-estarian-detras-muerte-hombre-tiro-cabeza-barcelona_202606106a29ade50d35a17610a2dc69.html |
+| Prensa | No se descarga | Rubio, El Mundo (11 de junio de 2026). https://www.elmundo.es/cataluna/2026/06/11/6a2af1b1fdddff0c748b45a6.html |
+| Prensa y datos a mano | No se descarga | Guillem RS, El Caso (15 de septiembre de 2026), tiroteos en Cataluña, introducidos a mano. https://elcaso.elnacional.cat/es/noticias/datos-confirman-percepcion-se-disparan-45-tiroteos-en-catalunya-en-2026_1695286102.html |
 | No se descarga | No aplica | Eurostat, Maritime transport of goods, annual data, usada para definir el Mar del Norte. https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Maritime_transport_of_goods_-_annual_data |
 
 ## Estructura del repositorio
 
 ```
 Proyecto/
-├── 00_fuentes/             archivos originales, no incluidos en el repositorio
+├── 00_fuentes/             archivos originales y PDF de informes (informes_pdf)
 ├── 01_notebooks/           notebooks 00 a 05
 ├── 02_datos/
 │   ├── silver/             tablas normalizadas y registros de cada paso
 │   └── gold/               tablas del modelo de Power BI
-├── 03_powerbi/             informe .pbix, PDF exportado, medidas DAX y textos de las páginas
+├── 03_powerbi/             proyecto .pbix, PDF exportado y  medidas DAX
 ├── 04_graficos/            figuras de los notebooks 04 y 05
-├── 05_presentacion/        presentación de la defensa
-├── 06_informe/             informe de 4 páginas en Word y PDF
-├── informes_pdf/           informes de EUDA y WCO y World Drug Report 2026
+├── 05_presentacion/         ppt, presentación de la defensa
+├── 06_informe/             informe de 4 páginas en PDF
 └── README.md
 ```
 
