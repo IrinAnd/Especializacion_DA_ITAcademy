@@ -129,7 +129,7 @@ Proyecto/
 2. Ejecutar los notebooks de 01_notebooks por orden, del 00 al 05. Las rutas son relativas a la carpeta del proyecto.
 3. Abrir el archivo .pbix de 03_powerbi y actualizar las rutas a 02_datos/gold.
 
-Librerías de Python: pandas, numpy, matplotlib, scipy y openpyxl.
+Librerías de Python: pandas, numpy, matplotlib y openpyxl.
 
 ## Límites
 
