@@ -119,7 +119,7 @@ Proyecto/
 ├── 03_powerbi/             proyecto .pbix, PDF exportado y  medidas DAX
 ├── 04_graficos/            figuras de los notebooks 04 y 05
 ├── 05_presentacion/         ppt, presentación de la defensa
-├── 06_informe/             informe de 4 páginas en Word y PDF
+├── 06_informe/             informe de 4 páginas en PDF
 └── README.md
 ```
 
